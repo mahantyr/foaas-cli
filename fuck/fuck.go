@@ -1,3 +1,5 @@
+package fuck
+
 import (
   "fmt"
   "net/http"
@@ -6,7 +8,7 @@ import (
   "strings"
 )
 
-func makeRequest(queries ...string) string{
+func makeRequest(queries ...string) string {
 
   const baseURL = "http://foaas.com/"
 
@@ -35,7 +37,7 @@ func makeRequest(queries ...string) string{
   return string(body)
 }
 
-func getVersion() {
+func GetVersion() string {
   return makeRequest("version")
 }
 

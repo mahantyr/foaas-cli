@@ -1,9 +1,9 @@
 package main
 
 import (
-  "github.com/palash25/go-fuck-yourself/cmd"
+  "github.com/palash25/foaas-cli/cmd"
 )
 
 func main() {
-  root.Execute()
+  cmd.Execute()
 }

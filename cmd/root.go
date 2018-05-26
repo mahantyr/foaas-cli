@@ -1,4 +1,4 @@
-package root
+package cmd
 
 import (
   "fmt"
@@ -7,7 +7,7 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-  Use:   "foaas",
+  Use:   "root",
   Short: "FOaaS CLI",
   Long: `This is a terminal client to interact with the FOaaS
                 (Fuck Off as a Service) API built with love by palash25
@@ -19,7 +19,11 @@ var rootCmd = &cobra.Command{
 
 func Execute() {
   if err := rootCmd.Execute(); err != nil {
-    fmt.Println("aaa", err)
+    fmt.Println(err)
     os.Exit(1)
   }
+}
+
+func init() {
+  rootCmd.AddCommand(versionCmd)
 }
