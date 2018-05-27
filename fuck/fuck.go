@@ -150,11 +150,9 @@ func Family(from string) string {
   return makeRequest("family", from)
 }
 
-
 func Fascinating(from string) string {
   return makeRequest("fascinating", from)
 }
-
 
 func Flying(from string) string {
   return makeRequest("flying", from)
@@ -163,7 +161,6 @@ func Flying(from string) string {
 func Fyyff(from string) string {
   return makeRequest("fyyf", from)
 }
-
 
 func Give(from string) string {
   return makeRequest("give", from)
@@ -184,7 +181,6 @@ func Horse(from string) string {
 func Immensity(from string) string {
   return makeRequest("immensity", from)
 }
-
 
 func Ing(name, from string) string {
   return makeRequest("ing", name, from)
