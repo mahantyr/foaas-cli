@@ -1,7 +1,6 @@
 package fuck
 
 import (
-  "fmt"
   "net/http"
   "log"
   "io/ioutil"
@@ -41,8 +40,8 @@ func GetVersion() string {
   return makeRequest("version")
 }
 
-func GetOperations() {
-  fmt.Println(makeRequest("operations"))
+func GetOperations() string {
+  return makeRequest("operations")
 }
 
 func Anyway(comapany, from string) string {

@@ -13,7 +13,7 @@ var rootCmd = &cobra.Command{
                 (Fuck Off as a Service) API built with love by palash25
                 in an effort to learn Go`,
   Run: func(cmd *cobra.Command, args []string) {
-    fmt.Println("fasfaf")
+    fmt.Println("Root executed")
   },
 }
 
@@ -26,4 +26,5 @@ func Execute() {
 
 func init() {
   rootCmd.AddCommand(versionCmd)
+  rootCmd.AddCommand(operationsCmd)
 }
