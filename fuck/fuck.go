@@ -41,381 +41,323 @@ func GetVersion() string {
   return makeRequest("version")
 }
 
-func getOperations() {
+func GetOperations() {
   fmt.Println(makeRequest("operations"))
 }
 
-func anyway(comapany, from string) string {
+func Anyway(comapany, from string) string {
     return makeRequest("anyway", comapany, from)
 }
 
-func asshole(from string) string {
+func Asshole(from string) string {
   return makeRequest("asshole", from)
 }
 
-
-func awesome(from string) string {
+func Awesome(from string) string {
   return makeRequest("awesome", from)
 }
 
-
-func back(name, from string) string {
+func Back(name, from string) string {
   return makeRequest("back", name, from)
 }
 
-
-func bag(from string) string {
+func Bag(from string) string {
   return makeRequest("bag", from)
 }
 
-
-func ballmer(name, company, from string) string {
+func Ballmer(name, company, from string) string {
   return makeRequest("ballmer", name, company, from)
 }
 
-
-func bday(name, from string) string {
+func Bday(name, from string) string {
   return makeRequest("bday", name, from)
 }
 
-
-func because(from string) string {
+func Because(from string) string {
   return makeRequest("because", from)
 }
 
-
-func blackadder(name, from string) string {
+func Blackadder(name, from string) string {
   return makeRequest("blackadder", name, from)
 }
 
-
-func bm(name, from string) string {
+func Bm(name, from string) string {
   return makeRequest("bm", name, from)
 }
 
 
-func bucket(from string) string {
+func Bucket(from string) string {
   return makeRequest("bucket", from)
 }
 
-
-func bus(name, from  string) string {
+func Bus(name, from  string) string {
   return makeRequest("bus", name, from)
 }
 
-
-func bye(from string) string {
+func Bye(from string) string {
   return makeRequest("bye", from)
 }
 
-
-func caniuse(tool, from string) string {
+func Caniuse(tool, from string) string {
   return makeRequest("caniuse", tool, from)
 }
 
-
-func chainsaw(name, from string) string {
+func Chainsaw(name, from string) string {
   return makeRequest("chainsaw", name, from)
 }
 
-func cocksplat(name, from string) string {
+func Cocksplat(name, from string) string {
   return makeRequest("cocksplat", name, from)
 }
 
-func cool(from string) string {
+func Cool(from string) string {
   return makeRequest("cool", from)
 }
 
-func cup(from string) string {
+func Cup(from string) string {
   return makeRequest("cup", from)
 }
 
-func dalton(name, from string) string {
+func Dalton(name, from string) string {
   return makeRequest("dalton", name, from)
 }
 
-
-func deraadt(name, from string) string {
+func Deraadt(name, from string) string {
   return makeRequest("deraadt", name, from)
 }
 
-func diabetes(from string) string {
+func Diabetes(from string) string {
   return makeRequest("diabetes", from)
 }
 
-func donut(name, from string) string {
+func Donut(name, from string) string {
   return makeRequest("donut", name, from)
 }
 
-func dosomething(do, something, from string) string {
+func DoSomething(do, something, from string) string {
   return makeRequest("dosomething", do, something, from)
 }
 
-func everyone(from string) string {
+func Everyone(from string) string {
   return makeRequest("everyone", from)
 }
 
-func everything(from string) string {
+func Everything(from string) string {
   return makeRequest("everything", from)
 }
 
-
-func family(from string) string {
+func Family(from string) string {
   return makeRequest("family", from)
 }
 
 
-func fascinating(from string) string {
+func Fascinating(from string) string {
   return makeRequest("fascinating", from)
 }
 
 
-func flying(from string) string {
+func Flying(from string) string {
   return makeRequest("flying", from)
 }
 
-
-func fyyff(from string) string {
+func Fyyff(from string) string {
   return makeRequest("fyyf", from)
 }
 
 
-func give(from string) string {
+func Give(from string) string {
   return makeRequest("give", from)
 }
 
-
-func field(name, from, reference string) string {
+func Field(name, from, reference string) string {
   return makeRequest("field", name, from, reference)
 }
 
-func greed(noun, from string) string {
+func Greed(noun, from string) string {
   return makeRequest("greed", noun, from)
 }
 
-func horse(from string) string {
+func Horse(from string) string {
   return makeRequest("horse", from)
 }
 
-func immensity(from string) string {
+func Immensity(from string) string {
   return makeRequest("immensity", from)
 }
 
 
-func ing(name, from string) string {
+func Ing(name, from string) string {
   return makeRequest("ing", name, from)
 }
 
-
-func keep(name, from string) string {
+func Keep(name, from string) string {
   return makeRequest("keep", name, from)
 }
 
-
-func keepcalm(reaction, from string) string {
+func KeepCalm(reaction, from string) string {
   return makeRequest("keepcalm", reaction, from)
 }
 
-
-func king(name, from string) string {
+func King(name, from string) string {
   return makeRequest("king", name, from)
 }
 
-
-func life(from string) string {
+func Life(from string) string {
   return makeRequest("life", from)
 }
 
-
-func linus(name, from string) string {
+func Linus(name, from string) string {
   return makeRequest("linus", name, from)
 }
 
-
-func look(name, from string) string {
+func Look(name, from string) string {
   return makeRequest("look", name, from)
 }
 
-func looking(from string) string {
+func Looking(from string) string {
   return makeRequest("looking", from)
 }
 
-
-func madison(name, from string) string {
+func Madison(name, from string) string {
   return makeRequest("madison", name, from)
 }
 
-
-func maybe(from string) string {
+func Maybe(from string) string {
   return makeRequest("maybe", from)
 }
 
-
-func me(from string) string {
+func Me(from string) string {
   return makeRequest("me", from)
 }
 
-
-func mornin(from string) string {
+func Mornin(from string) string {
   return makeRequest("mornin", from)
 }
 
-
-func no(from string) string {
+func No(from string) string {
   return makeRequest("no", from)
 }
 
-
-func nugget(name, from string) string {
+func Nugget(name, from string) string {
   return makeRequest("nugget", name, from)
 }
 
-
-func off(name, from string) string {
+func Off(name, from string) string {
   return makeRequest("off", name, from)
 }
 
-
-func off_with(behaviour, from string) string {
+func OffWith(behaviour, from string) string {
   return makeRequest("off-with", behaviour, from)
 }
 
-
-func outside(name, from string) string {
+func Outside(name, from string) string {
   return makeRequest("outside", name, from)
 }
 
-
-func particular(thing, from string) string {
+func Particular(thing, from string) string {
   return makeRequest("particular", thing, from)
 }
 
-
-func pink(from string) string {
+func Pink(from string) string {
   return makeRequest("pink", from)
 }
 
-
-func problem(name, from string) string {
+func Problem(name, from string) string {
   return makeRequest("problem", name, from)
 }
 
-
-func programmer(from string) string {
+func Programmer(from string) string {
   return makeRequest("programmer", from)
 }
 
-
-func pulp(language, from string) string {
+func Pulp(language, from string) string {
   return makeRequest("pulp", language, from)
 }
 
-
-func question(from string) string {
+func Question(from string) string {
   return makeRequest("question", from)
 }
 
-
-func retard(from string) string {
+func Retard(from string) string {
   return makeRequest("retard", from)
 }
 
-
-func ridiculous(from string) string {
+func Ridiculous(from string) string {
   return makeRequest("ridiculous", from)
 }
 
-
-func rtfm(from string) string {
+func Rtfm(from string) string {
   return makeRequest("rtfm", from)
 }
 
-
-func sake(from string) string {
+func Sake(from string) string {
   return makeRequest("sake", from)
 }
 
-
-func shit(from string) string {
+func Shit(from string) string {
   return makeRequest("shit", from)
 }
 
-
-func single(from string) string {
+func Single(from string) string {
   return makeRequest("single", from)
 }
 
-
-func thanks(from string) string {
+func Thanks(from string) string {
   return makeRequest("thanks", from)
 }
 
-
-func that(from string) string {
+func That(from string) string {
   return makeRequest("that", from)
 }
 
-
-func shakespeare(name, from string) string {
+func Shakespeare(name, from string) string {
   return makeRequest("shakespeare", name, from)
 }
 
-
-func think(name, from string) string {
+func Think(name, from string) string {
   return makeRequest("think", name, from)
 }
 
-
-func thinking(name, from string) string {
+func Thinking(name, from string) string {
   return makeRequest("thinking", name, from)
 }
 
-
-func thumbs(name, from string) string {
+func Thumbs(name, from string) string {
   return makeRequest("thumbs", name, from)
 }
 
-
-func xmas(name, from string) string {
+func Xmas(name, from string) string {
   return makeRequest("xmas", name, from)
 }
 
-
-func yoda(name, from string) string {
+func Yoda(name, from string) string {
   return makeRequest("yoda", name, from)
 }
 
-
-func you(name, from string) string {
+func You(name, from string) string {
   return makeRequest("you", name, from)
 }
 
-
-func this(from string) string {
+func This(from string) string {
   return makeRequest("this", from)
 }
 
-
-func too(from string) string {
+func Too(from string) string {
   return makeRequest("too", from)
 }
 
-
-func tucker(from string) string {
+func Tucker(from string) string {
   return makeRequest("tucker", from)
 }
 
-
-func what(from string) string {
+func What(from string) string {
   return makeRequest("what", from)
 }
 
-
-func zayn(from string) string {
+func Zayn(from string) string {
   return makeRequest("zayn", from)
 }
 
-
-func zero(from string) string {
+func Zero(from string) string {
   return makeRequest("zero", from)
 }
