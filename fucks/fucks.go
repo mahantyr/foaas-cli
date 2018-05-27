@@ -1,4 +1,4 @@
-package fuck
+package fucks
 
 import (
   "net/http"

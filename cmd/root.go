@@ -27,4 +27,5 @@ func Execute() {
 func init() {
   rootCmd.AddCommand(versionCmd)
   rootCmd.AddCommand(operationsCmd)
+  rootCmd.AddCommand(fuckCmd)
 }
