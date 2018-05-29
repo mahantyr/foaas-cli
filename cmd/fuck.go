@@ -128,7 +128,62 @@ var fuckCmd = &cobra.Command{
                 fmt.Println(fucks.Off(name, from))
          case "offwith":
                 fmt.Println(fucks.OffWith(behaviour, from))
-
+         case "outside":
+                fmt.Println(fucks.Outside(name, from))
+         case "particular":
+                fmt.Println(fucks.Particular(thing, from))
+         case "pink":
+                fmt.Println(fucks.Pink(from))
+         case "problem":
+                fmt.Println(fucks.Problem(name, from))
+         case "programmer":
+                fmt.Println(fucks.Programmer(from))
+         case "pulp":
+                fmt.Println(fucks.Pulp(lang, from))
+         case "question":
+                fmt.Println(fucks.Question(ref))
+         case "retard":
+                fmt.Println(fucks.Retard(from))
+         case "ridiculous":
+                fmt.Println(fucks.Ridiculous(from))
+         case "rtfm":
+                fmt.Println(fucks.Rtfm(from))
+         case "sake":
+                fmt.Println(fucks.Sake(from))
+         case "shit":
+                fmt.Println(fucks.Shit(from))
+         case "single":
+                fmt.Println(fucks.Single(from))
+         case "thanks":
+                fmt.Println(fucks.Thanks(from))
+         case "that":
+                fmt.Println(fucks.That(from))
+         case "shakespeare":
+                fmt.Println(fucks.Shakespeare(name, from))
+         case "think":
+                fmt.Println(fucks.Think(name, from))
+         case "thinking":
+                fmt.Println(fucks.Thinking(name, from))
+         case "thumbs":
+                fmt.Println(fucks.Thumbs(name, from))
+         case "xmas":
+                fmt.Println(fucks.Xmas(name, from))
+         case "yoda":
+                fmt.Println(fucks.Yoda(name, from))
+         case "you":
+                fmt.Println(fucks.You(name, from))
+         case "this":
+                fmt.Println(fucks.This(from))
+         case "too":
+                fmt.Println(fucks.Too(from))
+         case "tucker":
+                fmt.Println(fucks.Tucker(from))
+         case "what":
+                fmt.Println(fucks.What(from))
+         case "zayn":
+                fmt.Println(fucks.Zayn(from))
+         case "zero":
+                fmt.Println(fucks.Zero(from))
          default:
                 panic("Invalid argument")
          }
