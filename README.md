@@ -7,7 +7,10 @@
   </p>
 </h1>
 
-![See it in action](https://raw.githubusercontent.com/palash25/foaas-cli/blob/master/assets/fuck.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/palash25/foaas-cli/master/assets/fuck.gif" />
+</p>
+
 
 ## Installation
 `go get github.com/palash25/foaas-cli`
@@ -33,3 +36,5 @@ There are 3 commands in total:
     ```
     Here `bucket` is the argument and from is the `flag` with `Borat` as its
     value.
+
+**Like what you see? Then consider giving it a :star: star**
