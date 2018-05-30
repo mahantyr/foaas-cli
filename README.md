@@ -37,4 +37,94 @@ There are 3 commands in total:
     Here `bucket` is the argument and from is the `flag` with `Borat` as its
     value.
 
+### Arguments
+
+Here is a list of various arguments along with their flags generated using
+go doc. The function names are the arguments (should be in small letters when
+typed on the terminal) and the parameters passed to them are the flags. So
+if you want to give a fuck, say "Anyway" then type
+`foaas-cli fuck anyway --company DoofenshmirtzEvilInc --name Ferb`
+
+```
+func Anyway(comapany, from string) string
+func Asshole(from string) string
+func Awesome(from string) string
+func Back(name, from string) string
+func Bag(from string) string
+func Ballmer(name, company, from string) string
+func Bday(name, from string) string
+func Because(from string) string
+func Blackadder(name, from string) string
+func Bm(name, from string) string
+func Bucket(from string) string
+func Bus(name, from string) string
+func Bye(from string) string
+func Caniuse(tool, from string) string
+func Chainsaw(name, from string) string
+func Cocksplat(name, from string) string
+func Cool(from string) string
+func Cup(from string) string
+func Dalton(name, from string) string
+func Deraadt(name, from string) string
+func Diabetes(from string) string
+func DoSomething(do, something, from string) string
+func Donut(name, from string) string
+func Everyone(from string) string
+func Everything(from string) string
+func Family(from string) string
+func Fascinating(from string) string
+func Field(name, from, reference string) string
+func Flying(from string) string
+func Fyyff(from string) string
+func GetOperations() string
+func GetVersion() string
+func Give(from string) string
+func Greed(noun, from string) string
+func Horse(from string) string
+func Immensity(from string) string
+func Ing(name, from string) string
+func Keep(name, from string) string
+func KeepCalm(reaction, from string) string
+func King(name, from string) string
+func Life(from string) string
+func Linus(name, from string) string
+func Look(name, from string) string
+func Looking(from string) string
+func Madison(name, from string) string
+func Maybe(from string) string
+func Me(from string) string
+func Mornin(from string) string
+func No(from string) string
+func Nugget(name, from string) string
+func Off(name, from string) string
+func OffWith(behaviour, from string) string
+func Outside(name, from string) string
+func Particular(thing, from string) string
+func Pink(from string) string
+func Problem(name, from string) string
+func Programmer(from string) string
+func Pulp(language, from string) string
+func Question(from string) string
+func Retard(from string) string
+func Ridiculous(from string) string
+func Rtfm(from string) string
+func Sake(from string) string
+func Shakespeare(name, from string) string
+func Shit(from string) string
+func Single(from string) string
+func Thanks(from string) string
+func That(from string) string
+func Think(name, from string) string
+func Thinking(name, from string) string
+func This(from string) string
+func Thumbs(name, from string) string
+func Too(from string) string
+func Tucker(from string) string
+func What(from string) string
+func Xmas(name, from string) string
+func Yoda(name, from string) string
+func You(name, from string) string
+func Zayn(from string) string
+```
+
 **Like what you see? Then consider giving it a :star: star**
