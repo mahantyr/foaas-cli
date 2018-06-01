@@ -30,7 +30,7 @@ var fuckCmd = &cobra.Command{
 	Short: "Request various fucks from FOaaS",
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 0 {
-			fmt.Printf("you need to specifiy what type of fuck to give, see %s operations for full list\n", cmd.CommandPath())
+			fmt.Printf("you need to specifiy what type of fuck to give, see \"%s operations\" for full list\n", os.Args[0])
 			os.Exit(1)
 		}
 		switch args[0] {
