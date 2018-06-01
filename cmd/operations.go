@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"os"
+	"strings"
 
 	"github.com/palash25/foaas-cli/fucks"
 	"github.com/spf13/cobra"
@@ -31,8 +32,14 @@ var operationsCmd = &cobra.Command{
 			os.Exit(1)
 		}
 
+		var out string
 		for i := range opsList {
-			fmt.Println(opsList[i].Name)
+			var fields []string
+			for b := range opsList[i].Fields {
+				fields = append(fields, opsList[i].Fields[b].Field)
+			}
+			out = fmt.Sprintf("%s - %s", strings.ToLower(opsList[i].Name), strings.Join(fields, ", "))
+			fmt.Println(out)
 		}
 	},
 }
