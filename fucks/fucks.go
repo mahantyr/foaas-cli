@@ -1,3 +1,10 @@
+/*
+Package fucks provides various functions to interact with different routes of
+the FOaaS API.
+
+Each function accepts a specific set of arguments that are sent to that route
+as parameters.
+*/
 package fucks
 
 import (
