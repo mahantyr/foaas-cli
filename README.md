@@ -1,4 +1,4 @@
-<h1 align="center">
+ <h1 align="center">
   <img src="https://raw.githubusercontent.com/palash25/foaas-cli/master/assets/logo.png" alt="Logo">
   <h2 align="center">FOaaS CLI</h2>
   <p align="center">
